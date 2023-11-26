@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav, footer {
+    flex-shrink: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+    margin: 2px;
+}
+
+#logo {
+    width: 80vw;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.layer {
+    background-color: lightgray;
+    padding: 10px 5px;
+    border-bottom: 2px solid gray;
+}
